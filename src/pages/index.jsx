@@ -255,7 +255,7 @@ export default function Home({ articles }) {
         </title>
         <meta
           name="description"
-          content="I’m Spencer, a software designer and entrepreneur based in New York City. I’m the founder and CEO of Planetaria, where we develop technologies that empower regular people to explore space on their own terms."
+          content="I&lsquo;m Tran Dang Nguyen, a scientist with a passion for programming and photography. With expertise in developing individual-based simulations for malaria research, I&#39;m dedicated to using technology to make a positive impact. As an avid programmer and go chess enthusiast, I enjoy exploring the boundaries of creativity and code. Learn more about my work as a scientist and programming enthusiast by exploring my portfolio."
         />
       </Head>
       <Container className="mt-9">
@@ -269,8 +269,8 @@ export default function Home({ articles }) {
             individual-based simulations for malaria research, I&#39;m dedicated
             to using technology to make a positive impact. As an avid programmer
             and go chess enthusiast, I enjoy exploring the boundaries of
-            creativity and code. Discover the diverse talents of a scientist and
-            programming hobbyist on my portfolio.
+            creativity and code. Learn more about my work as a scientist and
+            programming enthusiast by exploring my portfolio.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
