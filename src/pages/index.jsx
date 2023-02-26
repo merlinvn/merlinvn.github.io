@@ -6,16 +6,9 @@ import clsx from 'clsx'
 import { Button } from '@/components/Button'
 import { Card } from '@/components/Card'
 import { Container } from '@/components/Container'
-import {
-  GitHubIcon,
-  InstagramIcon,
-  LinkedInIcon,
-  TwitterIcon,
-} from '@/components/SocialIcons'
-import logoAirbnb from '@/images/logos/airbnb.svg'
-import logoFacebook from '@/images/logos/facebook.svg'
-import logoPlanetaria from '@/images/logos/planetaria.svg'
-import logoStarbucks from '@/images/logos/starbucks.svg'
+import { GitHubIcon, LinkedInIcon, TwitterIcon } from '@/components/SocialIcons'
+import logoOucru from '@/images/logos/oucru_light.png'
+import logoPsu from '@/images/logos/psu.png'
 import image1 from '@/images/photos/image-1.jpg'
 import image2 from '@/images/photos/image-2.jpg'
 import image3 from '@/images/photos/image-3.jpg'
@@ -139,35 +132,42 @@ function Newsletter() {
 function Resume() {
   let resume = [
     {
-      company: 'Planetaria',
-      title: 'CEO',
-      logo: logoPlanetaria,
-      start: '2019',
+      company: 'Penn State University',
+      title: 'Research Assistant Professor',
+      logo: logoPsu,
+      start: '2021',
       end: {
         label: 'Present',
         dateTime: new Date().getFullYear(),
       },
     },
     {
-      company: 'Airbnb',
-      title: 'Product Designer',
-      logo: logoAirbnb,
-      start: '2014',
-      end: '2019',
+      company: 'Penn State University',
+      title: 'Postdoctoral Researcher',
+      logo: logoPsu,
+      start: '2018',
+      end: '2021',
     },
     {
-      company: 'Facebook',
-      title: 'iOS Software Engineer',
-      logo: logoFacebook,
-      start: '2011',
-      end: '2014',
+      company: 'Oxford University Clinical Research Unit',
+      title: 'Postdoctoral Researcher',
+      logo: logoOucru,
+      start: '2016',
+      end: '2018',
     },
     {
-      company: 'Starbucks',
-      title: 'Shift Supervisor',
-      logo: logoStarbucks,
-      start: '2008',
-      end: '2011',
+      company: 'Oxford University Clinical Research Unit',
+      title: 'Ph.D Student',
+      logo: logoOucru,
+      start: '2016',
+      end: '2010',
+    },
+    {
+      company: 'Oxford University Clinical Research Unit',
+      title: 'Research Assistant',
+      logo: logoOucru,
+      start: '2009',
+      end: '2010',
     },
   ]
 
@@ -251,7 +251,7 @@ export default function Home({ articles }) {
     <>
       <Head>
         <title>
-          Spencer Sharp - Software designer, founder, and amateur astronaut
+          Nguyen Tran - Scientist, programmer, and creative problem-solver
         </title>
         <meta
           name="description"
@@ -261,32 +261,30 @@ export default function Home({ articles }) {
       <Container className="mt-9">
         <div className="max-w-2xl">
           <h1 className="text-4xl font-bold tracking-tight text-zinc-800 dark:text-zinc-100 sm:text-5xl">
-            Software designer, founder, and amateur astronaut.
+            Scientist, programmer, and creative problem-solver.
           </h1>
           <p className="mt-6 text-base text-zinc-600 dark:text-zinc-400">
-            I’m Spencer, a software designer and entrepreneur based in New York
-            City. I’m the founder and CEO of Planetaria, where we develop
-            technologies that empower regular people to explore space on their
-            own terms.
+            I&lsquo;m Tran Dang Nguyen, a scientist with a passion for
+            programming and photography. With expertise in developing
+            individual-based simulations for malaria research, I&#39;m dedicated
+            to using technology to make a positive impact. As an avid programmer
+            and go chess enthusiast, I enjoy exploring the boundaries of
+            creativity and code. Discover the diverse talents of a scientist and
+            programming hobbyist on my portfolio.
           </p>
           <div className="mt-6 flex gap-6">
             <SocialLink
-              href="https://twitter.com"
+              href="https://twitter.com/merlinvn"
               aria-label="Follow on Twitter"
               icon={TwitterIcon}
             />
             <SocialLink
-              href="https://instagram.com"
-              aria-label="Follow on Instagram"
-              icon={InstagramIcon}
-            />
-            <SocialLink
-              href="https://github.com"
+              href="https://github.com/merlinvn"
               aria-label="Follow on GitHub"
               icon={GitHubIcon}
             />
             <SocialLink
-              href="https://linkedin.com"
+              href="https://www.linkedin.com/in/nguyen-tran-7304871b"
               aria-label="Follow on LinkedIn"
               icon={LinkedInIcon}
             />
