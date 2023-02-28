@@ -24,7 +24,7 @@ export function ArticleLayout({
   isRssFeed = false,
   previousPathname,
 }) {
-  let router = useRouter()
+  let router = (isRssFeed ? () => ({ back() {} }) : useRouter)()
 
   if (isRssFeed) {
     return children
