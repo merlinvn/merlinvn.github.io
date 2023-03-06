@@ -62,15 +62,15 @@ export default function Projects() {
   return (
     <>
       <Head>
-        <title>Projects - Spencer Sharp</title>
+        <title>Projects - Nguyen Tran</title>
         <meta
           name="description"
-          content="Things I’ve made trying to put my dent in the universe."
+          content="From Innovation to Impact: My Portfolio of Purpose-Driven Projects"
         />
       </Head>
       <SimpleLayout
-        title="Things I’ve made trying to put my dent in the universe."
-        intro="I’ve worked on tons of little projects over the years but these are the ones that I’m most proud of. Many of them are open-source, so if you see something that piques your interest, check out the code and contribute if you have ideas for how it can be improved."
+        title="From Innovation to Impact: My Portfolio of Purpose-Driven Projects"
+        intro=" I'm excited to share my portfolio of projects, which showcases some of the work that I'm most proud of. From developing an individual-based simulation for malaria research to creating a patient management website, my projects are driven by a desire to use technology to make a positive impact. Many of these projects are open-source, so if you see something that piques your interest, feel free to check out the code and contribute your ideas for improvement."
       >
         <ul
           role="list"

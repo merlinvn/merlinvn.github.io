@@ -29,15 +29,15 @@ export default function Uses() {
   return (
     <>
       <Head>
-        <title>Uses - Spencer Sharp</title>
+        <title>Utilities - Nguyen Tran</title>
         <meta
           name="description"
-          content="Software I use, gadgets I love, and other things I recommend."
+          content="Tools of the Trade: My Favorite Hardware and Software"
         />
       </Head>
       <SimpleLayout
         title="Software I use, gadgets I love, and other things I recommend."
-        intro="I get asked a lot about the things I use to build software, stay productive, or buy to fool myself into thinking I’m being productive when I’m really just procrastinating. Here’s a big list of all of my favorite stuff."
+        intro="Welcome to my Utilities page, where I share a list of my favorite tools and gadgets that I use to build software, stay productive, and have fun. Whether you're looking for programming languages, productivity apps, or gadgets that make your life easier, you'll find them all here. This is a comprehensive list of everything I recommend, from the software I use to the gadgets I love. So, if you've ever wondered about the tools and gadgets that help me stay on top of my game, take a look at my list and discover some new favorites."
       >
         <div className="space-y-20">
           <ToolsSection title="Workstation">

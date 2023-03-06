@@ -18,6 +18,9 @@ const withMDX = nextMDX({
     remarkPlugins: [remarkGfm],
     rehypePlugins: [rehypePrism],
   },
+  experimental: {
+    mdxRs: true,
+  },
 })
 
 export default withMDX(nextConfig)

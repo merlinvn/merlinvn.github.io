@@ -158,7 +158,7 @@ const Author = ({ author }) => {
 
 const Publication = ({ title, authors, journal, cta, href, note }) => {
   return (
-    <Card as="article">
+    <Card as="post">
       <Card.Title as="h3" href={href} target="_blank">
         {title}
       </Card.Title>
@@ -177,7 +177,7 @@ const Publication = ({ title, authors, journal, cta, href, note }) => {
 
 function Appearance({ title, description, event, cta, href }) {
   return (
-    <Card as="article">
+    <Card as="post">
       <Card.Title as="h3" href={href}>
         {title}
       </Card.Title>
