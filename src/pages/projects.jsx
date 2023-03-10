@@ -6,44 +6,40 @@ import { SimpleLayout } from '@/components/SimpleLayout'
 import logoAnimaginary from '@/images/logos/animaginary.svg'
 import logoCosmos from '@/images/logos/cosmos.svg'
 import logoHelioStream from '@/images/logos/helio-stream.svg'
-import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
+// import logoOpenShuttle from '@/images/logos/open-shuttle.svg'
 import logoPlanetaria from '@/images/logos/planetaria.svg'
 
 const projects = [
   {
-    name: 'Planetaria',
+    name: 'Malaria Simulation',
     description:
-      'Creating technology to empower civilians to explore space on their own terms.',
-    link: { href: 'http://planetaria.tech', label: 'planetaria.tech' },
+      'I created an individual-based simulation of malaria using C++ and optimized it for speed. This simulation has gained recognition for its ability to track parasitemia levels, pharmacokinetics, pharmacodynamics, host immunity, variable biting rates, and multiple drug-resistant alleles. The model is open source and can be compiled for Mac/Linux/Windows from its source repository. The initial goal of this project was to evaluate the use of multiple first-line therapies (MFT) at a population level and its long-term health outcomes. Currently, I am working on subsequent phases of this modeling work, exploring optimal treatment course durations and introducing new antimalarial combinations into population-level use when they become available.',
+    link: {
+      href: 'https://github.com/maciekboni/PSU-CIDD-Malaria-Simulation',
+      label: 'PSU-CIDD-Malaria-Simulation',
+    },
     logo: logoPlanetaria,
   },
   {
-    name: 'Animaginary',
+    name: 'IBM Flu',
     description:
-      'High performance web animation library, hand-written in optimized WASM.',
-    link: { href: '#', label: 'github.com' },
+      'I developed a fast and optimized C++ program to simulate the transmission of flu within a population. The results of this simulation were applied in the publication, "Virulence attenuation during an influenza A/H5N1 pandemic."',
+    link: { href: 'https://github.com/merlinvn/IbmFlu', label: 'github.com' },
     logo: logoAnimaginary,
   },
   {
-    name: 'HelioStream',
+    name: 'ili.vn',
     description:
-      'Real-time video streaming library, optimized for interstellar transmission.',
-    link: { href: '#', label: 'github.com' },
+      'In 2009, I created the backend for a website that monitors the incidence of ILI cases in Ho Chi Minh City, Vietnam. The system relied on doctors sending SMS messages to an Android phone, which then preprocessed the data before it was added to the database.',
+    link: { href: '#', label: 'ili.vn' },
     logo: logoHelioStream,
   },
   {
-    name: 'cosmOS',
+    name: 'DCAT',
     description:
-      'The operating system that powers our Planetaria space shuttles.',
-    link: { href: '#', label: 'github.com' },
+      'The Dengue Case and Treatment (DCAT) is a web-based application that allows hospitals to track and analyze dengue cases. It was built using Next.js, tRPC, Prisma, and Tailwind CSS, and provides an intuitive interface for healthcare professionals to manage patient data in real-time.',
+    link: { href: 'dcat.oucru.org', label: 'DCAT' },
     logo: logoCosmos,
-  },
-  {
-    name: 'OpenShuttle',
-    description:
-      'The schematics for the first rocket I designed that successfully made it to orbit.',
-    link: { href: '#', label: 'github.com' },
-    logo: logoOpenShuttle,
   },
 ]
 

@@ -40,77 +40,60 @@ export default function Uses() {
         intro="Welcome to my Utilities page, where I share a list of my favorite tools and gadgets that I use to build software, stay productive, and have fun. Whether you're looking for programming languages, productivity apps, or gadgets that make your life easier, you'll find them all here. This is a comprehensive list of everything I recommend, from the software I use to the gadgets I love. So, if you've ever wondered about the tools and gadgets that help me stay on top of my game, take a look at my list and discover some new favorites."
       >
         <div className="space-y-20">
-          <ToolsSection title="Workstation">
-            <Tool title="16” MacBook Pro, M1 Max, 64GB RAM (2021)">
-              I was using an Intel-based 16” MacBook Pro prior to this and the
-              difference is night and day. I’ve never heard the fans turn on a
-              single time, even under the incredibly heavy loads I put it
-              through with our various launch simulations.
+          <ToolsSection title="Hardware">
+            <Tool title="13” MacBook Air, i7, 8GB RAM (2015)">
+              In June 2022, I purchased this laptop from my university&#39;s
+              surplus store for $215. However, as I couldn&#39;t bear the
+              waiting time when switching workspaces in MacOS, I decided to
+              uninstall it and installed Linux instead. I&#39;m using Arch Linux
+              with i3 and AwesomeWM as my window manager. Even though it&#39;s a
+              bit old, it still works like a charm.
             </Tool>
-            <Tool title="Apple Pro Display XDR (Standard Glass)">
-              The only display on the market if you want something HiDPI and
-              bigger than 27”. When you’re working at planetary scale, every
-              pixel you can get counts.
+            <Tool title="Logitech Wireless Trackball M570">
+              I’ve been using this trackball for years and it’s still the best.
             </Tool>
-            <Tool title="IBM Model M SSK Industrial Keyboard">
-              They don’t make keyboards the way they used to. I buy these any
-              time I see them go up for sale and keep them in storage in case I
-              need parts or need to retire my main.
+            <Tool title="Technikable keyboard">
+              I&#39;m a big fan of small, mechanical, and ergonomic keyboards.
+              The one I&#39;m currently using was designed by Pete Johanson, the
+              creator of ZMK firmware, and features choc switches for a slim and
+              compact profile. I found this keyboard on Ebay for a great price.
+              Currently, I&#39;m using a 34-key layout that I designed myself.
             </Tool>
-            <Tool title="Apple Magic Trackpad">
-              Something about all the gestures makes me feel like a wizard with
-              special powers. I really like feeling like a wizard with special
-              powers.
-            </Tool>
-            <Tool title="Herman Miller Aeron Chair">
-              If I’m going to slouch in the worst ergonomic position imaginable
-              all day, I might as well do it in an expensive chair.
+            <Tool title="Zaphod keyboard">
+              This 34-key keyboard, designed by Pete Johanson and featuring choc
+              switches, is my go-to portable keyboard. It&#39;s extremely
+              compact and easy to carry around.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Development tools">
-            <Tool title="Sublime Text 4">
-              I don’t care if it’s missing all of the fancy IDE features
-              everyone else relies on, Sublime Text is still the best text
-              editor ever made.
+            <Tool title="neovim">
+              I had been using VSCode for several years before I switched to
+              neovim. Initially, I was skeptical about the change, but I&#39;m
+              now glad I made the switch. One day, I came across a video by the
+              Primeagen, a Twitch streamer and vim enthusiast, in which he
+              showed how to set up neovim from scratch. I was amazed by how
+              quickly I could write code with neovim, and it has since become my
+              primary text editor
             </Tool>
-            <Tool title="iTerm2">
-              I’m honestly not even sure what features I get with this that
-              aren’t just part of the macOS Terminal but it’s what I use.
-            </Tool>
-            <Tool title="TablePlus">
-              Great software for working with databases. Has saved me from
-              building about a thousand admin interfaces for my various projects
-              over the years.
-            </Tool>
-          </ToolsSection>
-          <ToolsSection title="Design">
-            <Tool title="Figma">
-              We started using Figma as just a design tool but now it’s become
-              our virtual whiteboard for the entire company. Never would have
-              expected the collaboration features to be the real hook.
+            <Tool title="Alacritty">
+              I&#39;ve been using Alacritty as my terminal emulator for years
+              and I don&#39;t see myself switching anytime soon. It&#39;s fast,
+              lightweight, and has all of the features I need.
             </Tool>
           </ToolsSection>
           <ToolsSection title="Productivity">
-            <Tool title="Alfred">
-              It’s not the newest kid on the block but it’s still the fastest.
-              The Sublime Text of the application launcher world.
+            <Tool title="Obsidian">
+              Obsidian is a powerful note-taking app that allows you to create a
+              personal knowledge base. It&#39;s a great alternative to Evernote,
+              OneNote, or Notion and it&#39;s completely free.
             </Tool>
-            <Tool title="Reflect">
-              Using a daily notes system instead of trying to keep things
-              organized by topics has been super powerful for me. And with
-              Reflect, it’s still easy for me to keep all of that stuff
-              discoverable by topic even though all of my writing happens in the
-              daily note.
-            </Tool>
-            <Tool title="SavvyCal">
-              Great tool for scheduling meetings while protecting my calendar
-              and making sure I still have lots of time for deep work during the
-              week.
-            </Tool>
-            <Tool title="Focus">
-              Simple tool for blocking distracting websites when I need to just
-              do the work and get some momentum going.
-            </Tool>
+          </ToolsSection>
+          <ToolsSection title="IOT Homelab">
+            <Tool title="Raspberry Pi 4"> </Tool>
+            <Tool title="Jetson Nano"> </Tool>
+            <Tool title="Google Coral Devboard"> </Tool>
+            <Tool title="Rock 5B"> </Tool>
+            <Tool title="Google Coral Usb Accelerator"> </Tool>
           </ToolsSection>
         </div>
       </SimpleLayout>
